@@ -30,7 +30,7 @@ class LeadDataCollection(BaseModel):
 
 # --- 3. MAIN AGENT CORE PIPELINE ---
 async def run_fully_agentic_scraper_v5():
-    print("\n📋 --- V5 Dynamic Pure-Agentic Scraper Matrix ---")
+    print("\n📋 --- Dynamic Pure-Agentic Scraper Matrix ---")
     print("💡 Senior Note: Free keys have a strict daily limit of 20 operations.\n")
     
     # Capture user inputs dynamically (Requirement 1)
@@ -96,7 +96,7 @@ async def run_fully_agentic_scraper_v5():
                 df.to_excel(output_excel_path, index=False)
                 
                 print("\n" + "🏆" * 20)
-                print(f"🎉 SUCCESS! V5 PIPELINE COMPLETE.\n👉 Excel generated at: {output_excel_path}")
+                print(f"🎉 SUCCESS! PIPELINE COMPLETE.\n👉 Excel generated at: {output_excel_path}")
                 print("🏆" * 20 + "\n")
                 return
 
